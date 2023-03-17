@@ -32,7 +32,7 @@ Koden kjører med Python 3.9.12.
 
 
 ## HVORDAN KJØRE PROGRAMMET:
-For å kjøre scriptene, og da spille én runde med spillet, ha alle scriptene i samme mappe og kjør main.py fra terminalen:
+For å kjøre scriptene, og da spille én runde med spillet, ha alle scriptene i samme mappe og kjør filen main.py fra terminalen:
 
 >> python main.py
 
