@@ -6,7 +6,7 @@
 Jeg har løst Blackjack-oppgaven som er kodeoppgave 1 i NAV Fors, og jeg har brukt Python i besvarelsen min.
 Oppgaven er et Blackjack-spill med to deltagere, Marit og Ruby. Jeg har løst oppgaven objektorientert med tre klasser:
 Blackjack (en subklasse av klassen Spill), Kortstokk og Spiller. Spillet kjøres ved å kalle på hovedprogrammet 'main.py'. 
-Spillet er ikke interaktivt, men Spiller-klassen trekker kort fra kortstokken etter automatiske kall fra Blackjack-klassen.
+Spillet er ikke interaktivt, men Spiller-klassen trekker kort fra kortstokken etter kall fra Blackjack-klassen.
 
 Spill er en superklasse som tar inn en Kortstokk. Her er tanken at Spill kan være mange forskjellige spill og at det de 
 har til felles er at de benytter seg av en kortstokk. Subklassen Blackjack tar inn to spillere, i tillegg til kortstokken. 
