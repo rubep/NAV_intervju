@@ -12,7 +12,9 @@ Spill er en superklasse som tar inn en Kortstokk. Her er tanken at Spill kan væ
 har til felles er at de benytter seg av en kortstokk. Subklassen Blackjack tar inn to spillere, i tillegg til kortstokken. 
 Blackjack-klassen sitter på reglene som er spesifisert i oppgaveteksten. Spiller-klassen representerer en spiller og har 
 spillerens navn, en referanse til hvilket spill hen spiller, spillerens hånd under spillet og spillerens poengsum. 
-Her er tanken at et Spiller-objekt kan opprettes i forbindelse med flere forskjellige spill. Spillerne trekker kort som 
+Her er tanken at et Spiller-objekt kan opprettes i forbindelse med flere forskjellige spill. 
+
+Spillerne trekker kort som 
 lagres på spillernes respektive hånd, men det er Blackjack-klassen som sitter på reglene og avgjør hvilken spiller som vinner. 
 
 SPILLETS REGLER: https://navikt.github.io/fors-public/kodeoppgaver/oppgave1.html#/ 
