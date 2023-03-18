@@ -32,6 +32,7 @@ Koden kjører med Python 3.9.12.
 - json
 - urllib.request (Python3)
 - urllib2 (Python2)
+- pytest (Python 2.7 < )
 
 
 ## HVORDAN KJØRE PROGRAMMET:
@@ -44,7 +45,7 @@ Da kjører hovedprogrammet som setter spillet i gang. Hver gang main.py kalles v
 
 ## HVORDAN TESTE PROGRAMMET:
 Jeg har skrevet noen veldig enkle tester, som på ingen måte er ment å være heldekkende, men de sjekker enkel 
-funksjonalitet i klassene og at metodene grovt sett oppfører seg som de skal. For å kjøre testene:
+funksjonalitet i klassene og at metodene grovt sett oppfører seg som de skal. Testene kjøres ved å bruke pytest:
 >> pytest test.py
 
 Godt spill :)
