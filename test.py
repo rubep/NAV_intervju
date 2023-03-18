@@ -2,6 +2,8 @@ from kortstokk import Kortstokk
 from spiller import Spiller
 from blackjack import Blackjack
 
+# Bruke pytest for å kjøre testene.
+
 url = "https://blackjack.labs.nais.io/shuffle"
 
 def testKortstokk():
